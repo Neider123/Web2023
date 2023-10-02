@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Tabla</title>
+</head>
+<body>
+
+    <h1 style="text-align: center;">Tablas y Formularios</h1>
+
+    <button class="boton" id="lanzarModal">Agregar Registro</button>
+    <div class="container_tabla">
+        <table id="table">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nombre</th>
+                    <th>Carrera</th>
+                    <th>Semestre</th>
+                    <th>Estado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Juan</td>
+                    <td>Ingeneria de Sistemas</td>
+                    <td>7</td>
+                    <td>Activo</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Simon</td>
+                    <td>Ingeneria Industrial</td>
+                    <td>6</td>
+                    <td>Activo</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Luis</td>
+                    <td>Ingeneria Ambiental</td>
+                    <td>10</td>
+                    <td>Inactivo</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!--Modal-->
+    <!-- Vertically centered modal -->
+   <div class="container_modal">
+    <div class="modal">
+    <h2>Registrar</h2>
+    <form action="">
+        <input type="text" placeholder="Nombre">
+        <input type="text" placeholder="Carrera">
+        <input type="text" placeholder="Semestre">
+        <button type="submit">Registrarse</button>
+    </form>
+    </div>
+  </div>
+    
+    <script src="./js/script.js"></script>
+</body>
+</html>
